@@ -2,17 +2,19 @@
 - name: application server stopping
   command: "{{ app_root_path }}/bin/{{ __script_to_run }} {{ app_server }} -user {{ __user_name }} -password {{ password }}"
   register: all
-  tags: all
+  tags: stopall
 - name: application stop status
   debug: 
         var: all.stdout_lines
+  tags: stopdebug
 - debug: 
     msg: "mypass: {{ password }}"
 
 - name: application server starting
   command: "{{ app_root_path }}/bin/{{ __script_to_start }} {{ app_server }}"
   register: all2
-  tags: all2
+  tags: startall
 - name: application start status
   debug: 
         var: all2.stdout_lines
+  tags: startdebug
