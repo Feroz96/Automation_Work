@@ -1,0 +1,7 @@
+---
+- hosts: dev_test
+  user: root_EB
+  become: yes
+  gather_facts: no
+  roles:
+    - dc-role

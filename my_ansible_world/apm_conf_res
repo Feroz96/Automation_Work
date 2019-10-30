@@ -1,0 +1,198 @@
+
+PLAY [all] *************************************************************************************************************************************************************
+
+TASK [tailing http conf] ***********************************************************************************************************************************************
+changed: [scope]
+changed: [faridabad]
+changed: [netra]
+changed: [singruali]
+changed: [sipat]
+changed: [rihand]
+changed: [ramagundam]
+changed: [solapur]
+changed: [bongaigaon]
+changed: [korba]
+changed: [khalegaon]
+changed: [kodgi]
+changed: [frrka]
+changed: [talcher]
+changed: [tanda]
+changed: [barh]
+changed: [mouda]
+changed: [unchar]
+changed: [dadri]
+changed: [vindhyachal]
+changed: [simhadri]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [faridabad] => {
+    "r1.stdout_lines": [
+        "WebSpherePluginConfig /install/IBM/WebSphere/Plugins/config/webserver1/plugin-cfg.xml", 
+        "", 
+        "Include \"/opt/ibm/apm/agent/tmp/khu/khu.install.IBM.HTTPServer.conf.httpd.conf\""
+    ]
+}
+ok: [netra] => {
+    "r1.stdout_lines": [
+        "CustomLog '|/install/IBM/HTTPServer/bin/rotatelogs -l /install/IBM/HTTPServer/logs/access.log_%d.%m.%Y 86400' common env=!log_exclude", 
+        "", 
+        "Include \"/opt/ibm/apm/agent/tmp/khu/khu.install.IBM.HTTPServer.conf.httpd.conf\""
+    ]
+}
+ok: [sipat] => {
+    "r1.stdout_lines": [
+        "#CustomLog logs/access_log common", 
+        "", 
+        "Include \"/opt/ibm/apm/agent/tmp/khu.install.IBM.HTTPServer.conf.httpd.conf\""
+    ]
+}
+ok: [ramagundam] => {
+    "r1.stdout_lines": [
+        "WebSpherePluginConfig /install/IBM/WebSphere/Plugins/config/webserver1/plugin-cfg.xml", 
+        "", 
+        "Include \"/opt/ibm/apm/agent/tmp/khu/khu.install.IBM.HTTPServer.conf.httpd.conf\""
+    ]
+}
+ok: [scope] => {
+    "r1.stdout_lines": [
+        "WebSpherePluginConfig /install/IBM/WebSphere/Plugins/config/webserver1/plugin-cfg.xml", 
+        "", 
+        "Include \"/opt/ibm/apm/agent/tmp/khu/khu.install.IBM.HTTPServer.conf.httpd.conf\""
+    ]
+}
+ok: [singruali] => {
+    "r1.stdout_lines": [
+        "WebSpherePluginConfig /install/IBM/WebSphere/Plugins/config/webserver1/plugin-cfg.xml", 
+        "", 
+        "Include \"/opt/ibm/apm/agent/tmp/khu.install.IBM.HTTPServer.conf.httpd.conf\""
+    ]
+}
+ok: [rihand] => {
+    "r1.stdout_lines": [
+        "WebSpherePluginConfig /install/IBM/WebSphere/Plugins/config/webserver1/plugin-cfg.xml", 
+        "", 
+        "Include \"/opt/ibm/apm/agent/tmp/khu.install.IBM.HTTPServer.conf.httpd.conf\""
+    ]
+}
+ok: [solapur] => {
+    "r1.stdout_lines": [
+        "WebSpherePluginConfig /install/IBM/WebSphere/Plugins/config/webserver1/plugin-cfg.xml", 
+        "", 
+        "Include \"/opt/ibm/apm/agent/tmp/khu/khu.install.IBM.HTTPServer.conf.httpd.conf\""
+    ]
+}
+ok: [bongaigaon] => {
+    "r1.stdout_lines": [
+        "WebSpherePluginConfig /install/IBM/WebSphere/Plugins/config/webserver1/plugin-cfg.xml", 
+        "", 
+        "Include \"/opt/ibm/apm/agent/tmp/khu/khu.install.IBM.HTTPServer.conf.httpd.conf\""
+    ]
+}
+ok: [simhadri] => {
+    "r1.stdout_lines": [
+        "LoadModule was_ap22_module /install/IBM/WebSphere/Plugins/bin/64bits/mod_was_ap22_http.so", 
+        "WebSpherePluginConfig /install/IBM/WebSphere/Plugins/config/webserver1/plugin-cfg.xml", 
+        "Include \"/opt/ibm/apm/agent/tmp/khu/khu.install.IBM.HTTPServer.conf.httpd.conf\""
+    ]
+}
+ok: [korba] => {
+    "r1.stdout_lines": [
+        "CustomLog '|/install/IBM/HTTPServer/bin/rotatelogs -l /install/IBM/HTTPServer/logs/access.log_%d.%m.%Y 86400' common env=!log_exclude", 
+        "", 
+        "Include \"/opt/ibm/apm/agent/tmp/khu.install.IBM.HTTPServer.conf.httpd.conf\""
+    ]
+}
+ok: [kodgi] => {
+    "r1.stdout_lines": [
+        "", 
+        "", 
+        "Include \"/opt/ibm/apm/agent/tmp/khu/khu.install.IBM.HTTPServer.conf.httpd.conf\""
+    ]
+}
+ok: [khalegaon] => {
+    "r1.stdout_lines": [
+        "WebSpherePluginConfig /install/IBM/WebSphere/Plugins//config/webserver1/plugin-cfg.xml", 
+        "", 
+        "Include \"/opt/ibm/apm/agent/tmp/khu/khu.install.IBM.HTTPServer.conf.httpd.conf\""
+    ]
+}
+ok: [barh] => {
+    "r1.stdout_lines": [
+        "CustomLog '|/install/IBM/HTTPServer/bin/rotatelogs -l /install/IBM/HTTPServer/logs/access.log_%d.%m.%Y 86400' common env=!log_exclude", 
+        "", 
+        "Include \"/opt/ibm/apm/agent/tmp/khu/khu.install.IBM.HTTPServer.conf.httpd.conf\""
+    ]
+}
+ok: [frrka] => {
+    "r1.stdout_lines": [
+        "WebSpherePluginConfig /install/IBM/WebSphere/Plugins/config/webserver1/plugin-cfg.xml", 
+        "", 
+        "Include \"/opt/ibm/apm/agent/tmp/khu/khu.install.IBM.HTTPServer.conf.httpd.conf\""
+    ]
+}
+ok: [talcher] => {
+    "r1.stdout_lines": [
+        "WebSpherePluginConfig /install/IBM/WebSphere/Plugins/config/webserver1/plugin-cfg.xml", 
+        "", 
+        "Include \"/opt/ibm/apm/agent/tmp/khu/khu.install.IBM.HTTPServer.conf.httpd.conf\""
+    ]
+}
+ok: [tanda] => {
+    "r1.stdout_lines": [
+        "WebSpherePluginConfig /install/IBM/WebSphere/Plugins//config/webserver1/plugin-cfg.xml", 
+        "", 
+        "Include \"/opt/ibm/apm/agent/tmp/khu/khu.install.IBM.HTTPServer.conf.httpd.conf\""
+    ]
+}
+ok: [mouda] => {
+    "r1.stdout_lines": [
+        "WebSpherePluginConfig /install/IBM/WebSphere/Plugins/config/webserver1/plugin-cfg.xml", 
+        "", 
+        "Include \"/opt/ibm/apm/agent/tmp/khu.install.IBM.HTTPServer.conf.httpd.conf\""
+    ]
+}
+ok: [dadri] => {
+    "r1.stdout_lines": [
+        "#CustomLog logs/access_log common", 
+        "", 
+        "Include \"/opt/ibm/apm/agent/tmp/khu/khu.install.IBM.HTTPServer.conf.httpd.conf\""
+    ]
+}
+ok: [vindhyachal] => {
+    "r1.stdout_lines": [
+        "WebSpherePluginConfig /install/IBM/WebSphere/Plugins/config/webserver1/plugin-cfg.xml", 
+        "", 
+        "Include \"/opt/ibm/apm/agent/tmp/khu/khu.install.IBM.HTTPServer.conf.httpd.conf\""
+    ]
+}
+ok: [unchar] => {
+    "r1.stdout_lines": [
+        "WebSpherePluginConfig /install/IBM/WebSphere/Plugins/config/webserver1/plugin-cfg.xml", 
+        "", 
+        "Include \"/opt/ibm/apm/agent/tmp/khu/khu.install.IBM.HTTPServer.conf.httpd.conf\""
+    ]
+}
+
+PLAY RECAP *************************************************************************************************************************************************************
+barh                       : ok=2    changed=1    unreachable=0    failed=0   
+bongaigaon                 : ok=2    changed=1    unreachable=0    failed=0   
+dadri                      : ok=2    changed=1    unreachable=0    failed=0   
+faridabad                  : ok=2    changed=1    unreachable=0    failed=0   
+frrka                      : ok=2    changed=1    unreachable=0    failed=0   
+khalegaon                  : ok=2    changed=1    unreachable=0    failed=0   
+kodgi                      : ok=2    changed=1    unreachable=0    failed=0   
+korba                      : ok=2    changed=1    unreachable=0    failed=0   
+mouda                      : ok=2    changed=1    unreachable=0    failed=0   
+netra                      : ok=2    changed=1    unreachable=0    failed=0   
+ramagundam                 : ok=2    changed=1    unreachable=0    failed=0   
+rihand                     : ok=2    changed=1    unreachable=0    failed=0   
+scope                      : ok=2    changed=1    unreachable=0    failed=0   
+simhadri                   : ok=2    changed=1    unreachable=0    failed=0   
+singruali                  : ok=2    changed=1    unreachable=0    failed=0   
+sipat                      : ok=2    changed=1    unreachable=0    failed=0   
+solapur                    : ok=2    changed=1    unreachable=0    failed=0   
+talcher                    : ok=2    changed=1    unreachable=0    failed=0   
+tanda                      : ok=2    changed=1    unreachable=0    failed=0   
+unchar                     : ok=2    changed=1    unreachable=0    failed=0   
+vindhyachal                : ok=2    changed=1    unreachable=0    failed=0   
+

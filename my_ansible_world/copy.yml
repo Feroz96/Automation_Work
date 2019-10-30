@@ -1,0 +1,14 @@
+---
+- hosts: all
+  user: root_EB
+  become: yes
+  become_method: sudo
+  gather_facts: false
+  tasks:
+   - name: copying to sites
+     copy: 
+          src: /home/root_EB/DocumentViewerDaeja.jsp
+          dest: /home/root_EB
+          mode: 0644
+          owner: root
+  

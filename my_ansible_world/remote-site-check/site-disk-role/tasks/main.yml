@@ -1,0 +1,10 @@
+---
+- name: mounts points of host
+  command: df -hT
+  register: v2
+  tags:
+   - df1
+- debug: var=v2.stdout_lines
+  tags:
+   - df2
+- local_action: "copy content='{{ v2.stdout_lines }}' dest=/etc/ansible/data3107.txt"

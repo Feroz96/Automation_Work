@@ -1,0 +1,40 @@
+---
+####Host Vars####
+__site_faridabad: "{{ site_faridabad | default('fdb-rmtnav.ntpc.co.in') }}"
+__site_netra: "{{ site_netra | default('netra-rmtnav.ntpc.co.in') }}"
+__site_ramagundam: "{{ site_ramagundam | default('rgnd-rmtnav.ntpc.co.in') }}"
+__site_sipat: "{{ site_sipat | default('spt-rmtnav.ntpc.co.in') }}"
+__site_scope: "{{ site_scope | default('scope-rmtnav.ntpc.co.in') }}"
+__site_singruali: "{{ site_singruali | default('sing-rmtnav.ntpc.co.in') }}"
+__site_rihad: "{{ site_rihad | default('rhd-rmtnav.ntpc.co.in') }}"
+__site_bongaigaon: "{{ site_bongaigaon | default('bgn-rmtnav.ntpc.co.in') }}"
+__site_solapur: "{{ site_solapur | default('slpr-rmtnav.ntpc.co.in') }}"
+__site_simhadri: "{{ site_simhadri | default('smdr-rmtnav.ntpc.co.in') }}"
+__site_korba: "{{ site_korba | default('krb-rmtnav.ntpc.co.in') }}"
+__site_khelegaon: "{{ site_khelegaon | default('khlg.rmtnav.ntpc.co.in') }}"
+__site_kodgi: "{{ site_kodgi | default('kdg-rmtnav.ntpc.co.in') }}"
+__site_frrka: "{{ site_frrka | default('frk-rmtnav.ntpc.co.in') }}"
+__site_barh: "{{ site_barh | default('brh-rmtnav.ntpc.co.in') }}"
+__site_talcher: "{{ site_talcher | default('tlr-rmtnav.ntpc.co.in') }}"
+__site_mouda: "{{ site_mouda | default('mda-rmtnav.ntpc.co.in') }}"
+__site_tanda: "{{ site_tanda | default('tnd-rmtnav.ntpc.co.in') }}"
+__site_dadri: "{{ site_dadri | default('ddr-rmtnav.ntpc.co.in') }}"
+__site_vidhyanchal: "{{ site_vidhyanchal | default('vdchl-rmtnav.ntpc.co.in') }}"
+__site_unchar: "{{ site_unchar | default('unchr-rmtnav.ntpc.co.in') }}"
+
+
+####Task Vars####
+#__app_root_path: "{{ app_root_path | default('/install/IBM/WebSphere/AppServer/profiles/AppSrv01') }}"
+
+__script_to_run: "{{ script_to_run | default('stopServer.sh') }}"
+
+__script_to_start: "{{ script_to_start | default('startServer.sh') }}"
+__user_name: "{{ user_name | default('wspadmin') }}"
+
+password: !vault |
+          $ANSIBLE_VAULT;1.1;AES256
+          65626534316631363835383334346336393439323361653836313235626166373963303434393563
+          3064643861326666393865316264383439616336653362390a633130633536346435326637373838
+          65616361393337313836363264326438323935623934613164303561306533303966343334383462
+          3534323537613866350a666335363262353431306339383430323734343264633738623331363564
+          6332

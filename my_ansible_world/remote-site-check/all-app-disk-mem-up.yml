@@ -1,0 +1,13 @@
+---
+- hosts: all
+  serial: 1
+  user: root_EB
+  become: yes
+  become_method: sudo
+  gather_facts: false
+  #vars_prompt:
+  # - name: pswd
+  #  prompt: "Please Enter App Password?"
+  #  private: no
+  roles:
+    - all-app-disk-mem-up

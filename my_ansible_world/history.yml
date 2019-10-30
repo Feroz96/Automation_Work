@@ -1,0 +1,16 @@
+---
+- hosts: all
+  user: root_EB
+  become: yes
+  become_method: sudo
+  vars:
+    path1: "/root/.bashrc"
+  tasks:
+  - name: adding date and time to history cmd
+    lineinfile:
+                path: "{{ path1 }}"
+                line: 'export HISTTIMEFORMAT="%F %T"'
+                backup: yes
+                state: present
+  - name: exporting hist time setting
+    shell: source "{{ path1 }}"

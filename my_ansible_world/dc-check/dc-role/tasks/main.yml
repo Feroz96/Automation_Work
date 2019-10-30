@@ -1,0 +1,35 @@
+---
+- name: hostname
+  command: /usr/bin/hostname -s
+  register: h1
+- name: Mount Points
+  command: df -g
+  register: r1
+  tags: df1
+- debug: var=r1.stdout_lines
+  tags: df2
+- name: Memory Info
+  command: svmon -O unit=GB
+  register: r2
+  tags: mem1
+- debug: var=r2.stdout_lines
+  tags: mem2
+- name: Uptime of Host
+  command: uptime
+  register: r3
+  tags: up1
+- debug: var=r3.stdout_lines
+  tags: up2
+ 
+- name: output of r1
+  copy: 
+        content: "{{ r1.stdout_lines }}"
+        dest: "/home/root_EB/EB/diskspace.txt"
+- name: output of r2
+  copy: 
+        content: "{{ r2.stdout_lines }}"
+        dest: "/home/root_EB/EB/memory.txt"
+- name: output of r3
+  copy: 
+        content: "{{ r3.stdout_lines }}"
+        dest: "/home/root_EB/EB/uptime.txt"

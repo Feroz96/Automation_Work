@@ -1,0 +1,17 @@
+---
+- name: Uptime info of Host
+  command: uptime
+  register: up_op
+  tags: up1
+
+- debug: var=up_op.stdout_lines
+  tags: up2
+
+- name: Memory info of Host
+  command: free -g
+  register: mem_op
+  tags: free1
+
+- debug: var=mem_op.stdout_lines
+  tags: free2
+

@@ -1,0 +1,40 @@
+---
+- hosts: all
+  user: root_EB
+  serial: 1
+  become: true
+  become_method: sudo
+  vars:
+     confile: "/etc/rsyslog.conf"
+     RE1: ^"\*.info;mail.none;authpriv.none;cron.none\s*\/var\/log\/messages"
+     RE2: "##*.info;mail.none;authpriv.none;cron.none;  /var/log/messages"
+     L1: "*.info;mail.none;authpriv.none;cron.none;kern.none;   /var/log/messages"
+     L2: "Kernal log setting"
+     L3: "kern.info /var/log/kernel.log"
+  tasks:
+   - name: commenting log conf
+     lineinfile: 
+        path: "{{ confile }}"
+        regexp:  "{{ RE1 }}"
+        line: "{{ RE2 }}"
+        state: present
+        backup: yes
+   - name: inserting kern log
+     lineinfile: 
+        path: "{{ confile }}"
+        insertafter: "{{ RE2  }}"
+        line: "{{ L1 }}"
+        state: present
+   - name: inserting new log comment
+     lineinfile: 
+        path: "{{ confile }}"
+        insertafter: "{{ L1 }}"
+        line: "{{ L2 }}"
+        state: present
+   - name: inserting new logset 
+     lineinfile: 
+        path: "{{ confile }}"
+        insertafter: "{{ L2 }}"
+        line: "{{ L3 }}"
+        state: present
+       

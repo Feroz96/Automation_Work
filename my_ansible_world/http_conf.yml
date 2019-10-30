@@ -1,0 +1,10 @@
+---
+- hosts: all
+  become_user: root_EB
+  become: yes
+  gather_facts: no
+  tasks:
+   - name: tailing http conf
+     command: tail -3 /install/IBM/HTTPServer/conf/httpd.conf
+     register: r1
+   - debug: var=r1.stdout_lines

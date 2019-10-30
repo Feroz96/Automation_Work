@@ -1,0 +1,33 @@
+---
+####Host Vars####
+__site_faridabad: "{{ site_faridabad | default('fdb-rmtnav.ntpc.co.in') }}"
+__site_netra: "{{ site_netra | default('netra-rmtnav.ntpc.co.in') }}"
+__site_ramagundam: "{{ site_ramagundam | default('rgnd-rmtnav.ntpc.co.in') }}"
+__site_sipat: "{{ site_sipat | default('spt-rmtnav.ntpc.co.in') }}"
+__site_scope: "{{ site_scope | default('scope-rmtnav.ntpc.co.in') }}"
+__site_singruali: "{{ site_singruali | default('sing-rmtnav.ntpc.co.in') }}"
+__site_rihad: "{{ site_rihad | default('rhd-rmtnav.ntpc.co.in') }}"
+__site_bongaigaon: "{{ site_bongaigaon | default('bgn-rmtnav.ntpc.co.in') }}"
+__site_solapur: "{{ site_solapur | default('slpr-rmtnav.ntpc.co.in') }}"
+__site_simhadri: "{{ site_simhadri | default('smdr-rmtnav.ntpc.co.in') }}"
+__site_korba: "{{ site_korba | default('krb-rmtnav.ntpc.co.in') }}"
+__site_khelegaon: "{{ site_khelegaon | default('khlg.rmtnav.ntpc.co.in') }}"
+__site_kodgi: "{{ site_kodgi | default('kdg-rmtnav.ntpc.co.in') }}"
+__site_frrka: "{{ site_frrka | default('frk-rmtnav.ntpc.co.in') }}"
+__site_barh: "{{ site_barh | default('brh-rmtnav.ntpc.co.in') }}"
+__site_talcher: "{{ site_talcher | default('tlr-rmtnav.ntpc.co.in') }}"
+__site_mouda: "{{ site_mouda | default('mda-rmtnav.ntpc.co.in') }}"
+__site_tanda: "{{ site_tanda | default('tnd-rmtnav.ntpc.co.in') }}"
+__site_dadri: "{{ site_dadri | default('ddr-rmtnav.ntpc.co.in') }}"
+__site_vidhyanchal: "{{ site_vidhyanchal | default('vdchl-rmtnav.ntpc.co.in') }}"
+__site_unchar: "{{ site_unchar | default('unchr-rmtnav.ntpc.co.in') }}"
+
+
+####Task Vars####
+__app_root_path: "{{ app_root_path | default('/install/IBM/WebSphere/AppServer/profiles/AppSrv01') }}"
+
+__script_to_run: "{{ script_to_run | default('serverStatus.sh') }}"
+
+__user_name: "{{ user_name | default('wspadmin') }}"
+
+

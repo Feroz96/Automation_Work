@@ -1,0 +1,8 @@
+---
+__app_root_path: "{{ app_root_path | default('/install/IBM/WebSphere/AppServer/profiles/AppSrv01') }}"
+
+__script_to_run: "{{ script_to_run | default('serverStatus.sh') }}"
+
+__user_name: "{{ user_name | default('wspadmin') }}"
+
+

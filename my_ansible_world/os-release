@@ -1,0 +1,480 @@
+
+PLAY [all] *************************************************************************************************************************************************************
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [netra]
+changed: [scope]
+changed: [faridabad]
+changed: [sipat]
+changed: [ramagundam]
+changed: [singruali]
+changed: [rihand]
+changed: [korba]
+changed: [bongaigaon]
+changed: [khalegaon]
+changed: [simhadri]
+changed: [barh]
+changed: [frrka]
+changed: [mouda]
+changed: [talcher]
+changed: [tanda]
+changed: [dadri]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [faridabad] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.1 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VERSION_ID=\"7.1\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.1:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.1", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.1\""
+    ]
+}
+ok: [netra] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.1 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VARIANT=\"Server\"", 
+        "VARIANT_ID=\"server\"", 
+        "VERSION_ID=\"7.1\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.1:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.1", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.1\""
+    ]
+}
+ok: [ramagundam] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.1 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VERSION_ID=\"7.1\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.1:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.1", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.1\""
+    ]
+}
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [vindhyachal]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [sipat] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.1 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VERSION_ID=\"7.1\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.1:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.1", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.1\""
+    ]
+}
+ok: [scope] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.1 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VERSION_ID=\"7.1\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.1:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.1", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.1\""
+    ]
+}
+ok: [singruali] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.5 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VARIANT=\"Server\"", 
+        "VARIANT_ID=\"server\"", 
+        "VERSION_ID=\"7.5\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.5:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.5", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.5\""
+    ]
+}
+ok: [rihand] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.5 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VARIANT=\"Server\"", 
+        "VARIANT_ID=\"server\"", 
+        "VERSION_ID=\"7.5\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.5:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.5", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.5\""
+    ]
+}
+ok: [bongaigaon] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.1 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VERSION_ID=\"7.1\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.1:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.1", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.1\""
+    ]
+}
+ok: [simhadri] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.1 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VERSION_ID=\"7.1\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.1:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.1", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.1\""
+    ]
+}
+ok: [korba] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.1 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VERSION_ID=\"7.1\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.1:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.1", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.1\""
+    ]
+}
+ok: [khalegaon] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.5 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VARIANT=\"Server\"", 
+        "VARIANT_ID=\"server\"", 
+        "VERSION_ID=\"7.5\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.5:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.5", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.5\""
+    ]
+}
+ok: [frrka] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.1 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VERSION_ID=\"7.1\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.1:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.1", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.1\""
+    ]
+}
+ok: [barh] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.1 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VERSION_ID=\"7.1\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.1:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.1", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.1\""
+    ]
+}
+ok: [talcher] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.1 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VERSION_ID=\"7.1\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.1:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.1", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.1\""
+    ]
+}
+ok: [mouda] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.1 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VERSION_ID=\"7.1\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.1:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.1", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.1\""
+    ]
+}
+ok: [tanda] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.5 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VARIANT=\"Server\"", 
+        "VARIANT_ID=\"server\"", 
+        "VERSION_ID=\"7.5\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.5:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.5", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.5\""
+    ]
+}
+ok: [dadri] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.5 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VARIANT=\"Server\"", 
+        "VARIANT_ID=\"server\"", 
+        "VERSION_ID=\"7.5\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.5:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.5", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.5\""
+    ]
+}
+ok: [vindhyachal] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.1 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VERSION_ID=\"7.1\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.1:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.1", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.1\""
+    ]
+}
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [unchar]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [unchar] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.5 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VARIANT=\"Server\"", 
+        "VARIANT_ID=\"server\"", 
+        "VERSION_ID=\"7.5\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.5:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.5", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.5\""
+    ]
+}
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [solapur]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [solapur] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.1 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VERSION_ID=\"7.1\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.1:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.1", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.1\""
+    ]
+}
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [kodgi]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [kodgi] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.1 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VERSION_ID=\"7.1\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.1:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.1", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.1\""
+    ]
+}
+
+PLAY RECAP *************************************************************************************************************************************************************
+barh                       : ok=2    changed=1    unreachable=0    failed=0   
+bongaigaon                 : ok=2    changed=1    unreachable=0    failed=0   
+dadri                      : ok=2    changed=1    unreachable=0    failed=0   
+faridabad                  : ok=2    changed=1    unreachable=0    failed=0   
+frrka                      : ok=2    changed=1    unreachable=0    failed=0   
+khalegaon                  : ok=2    changed=1    unreachable=0    failed=0   
+kodgi                      : ok=2    changed=1    unreachable=0    failed=0   
+korba                      : ok=2    changed=1    unreachable=0    failed=0   
+mouda                      : ok=2    changed=1    unreachable=0    failed=0   
+netra                      : ok=2    changed=1    unreachable=0    failed=0   
+ramagundam                 : ok=2    changed=1    unreachable=0    failed=0   
+rihand                     : ok=2    changed=1    unreachable=0    failed=0   
+scope                      : ok=2    changed=1    unreachable=0    failed=0   
+simhadri                   : ok=2    changed=1    unreachable=0    failed=0   
+singruali                  : ok=2    changed=1    unreachable=0    failed=0   
+sipat                      : ok=2    changed=1    unreachable=0    failed=0   
+solapur                    : ok=2    changed=1    unreachable=0    failed=0   
+talcher                    : ok=2    changed=1    unreachable=0    failed=0   
+tanda                      : ok=2    changed=1    unreachable=0    failed=0   
+unchar                     : ok=2    changed=1    unreachable=0    failed=0   
+vindhyachal                : ok=2    changed=1    unreachable=0    failed=0   
+

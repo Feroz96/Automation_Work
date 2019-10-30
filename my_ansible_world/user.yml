@@ -1,0 +1,36 @@
+---
+- name: adding users
+  hosts:  all
+  user: root_EB
+  become: yes
+  become_method: sudo
+  gather_facts: yes
+  vars:
+    u_name: 'dimpy'
+    u_passwd: '$5$sha-512$TDRave2xoui7xcCuYOGZ0kJ5QrpF0Q8GetCUPDaKN1A'
+  tasks:
+   - name: creating users
+     user: 
+      name: "{{ u_name }}"
+      password: "{{ u_passwd }}"
+      shell: /bin/bash
+      state: present 
+   - name: create .ssh dir
+     file:
+      path: "/home/{{ u_name }}/.ssh"
+      state: directory
+      owner: "{{ u_name }}"
+      group: "{{ u_name }}"
+      mode: 0700
+   - name: touch authorized file
+     file: 
+      path: "/home/{{ u_name }}/.ssh/authorized_keys"
+      state: touch
+      owner: "{{ u_name }}"
+      group: "{{ u_name }}"
+   - name: copying pub key file
+     lineinfile: 
+      path: "/home/{{ u_name }}/.ssh/authorized_keys"
+      line: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDCa9MS4jyDrlvrEnkrkGbvvoeTNTCqXzuGATH0Egm2t8MhnIwlIgfMfOQQw+24wexDPyjby79De0L+M7VpIg5q1eT0A2Dv8nxpA+4jp+9Qle3TReudkaCvcpPNwBA0GQ3jC6dOMhGTm4RSz/MTsp6Kvpz/YA7wfTnJbRUEJH21qAKDmUsr5Dafr6fxrpRVTPlysKOqa1Rm2Xg61vmkD+TlbbPwXwp3xGaRTjR1saAL2E5XdROsE4yaOPHkhYiiJ7urteFsMuzZxH5eLjF1M+kurLk9+is2yVzyRdfg4FPnjPD9QpY0KzxY6fzN4GLEzq87+DfiUgPck0k0FuDO8QKb dimpy@INFRA73LVM.ntpc.co.in"
+      state: present
+  

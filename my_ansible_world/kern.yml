@@ -1,0 +1,19 @@
+---
+- hosts: all
+  serial: 1
+  #strategy: free
+  user: root_EB
+  become: yes
+  become_method: sudo
+  gather_facts: yes
+  tasks:
+   - command: cat /etc/redhat-release
+     register: kern
+
+   - debug: 
+       #msg: "{{ kern.stdout | select('match', '(^VERSION_ID)+')|list }}"
+       #msg: "{{ kern.stdout_lines | select('match', '^(em|p1p)[0-9]+') | list }}"
+        #msg: "{{ ansible_interfaces | select('match', '^(em|p1p)[0-9]+') | list }}"
+       msg: "{{ ansible_interfaces | map('upper') | list }}"
+        #msg: "{{ kern.stdout_lines | map('upper') | list }}"
+  

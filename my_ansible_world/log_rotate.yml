@@ -1,0 +1,26 @@
+---
+- hosts: all
+  user: root_EB
+  serial: 1
+  become: true
+  become_method: sudo
+  vars:
+     confile: "/install/IBM/HTTPServer/conf/httpd.conf"
+     L1: "CustomLog logs/access_log common env=!log_exclude"
+     L2: "#CustomLog logs/access_log common"
+     R1: "CustomLog '|/install/IBM/HTTPServer/bin/rotatelogs -l /install/IBM/HTTPServer/logs/access.log_%d.%m.%Y 86400' common env=!log_exclude"
+  tasks:
+   - name: commenting log conf
+     lineinfile: 
+        path: "{{ confile }}"
+        regexp:  "{{ L1}}"
+        line: "{{ L2 }}"
+        backup: yes
+   - name: inserting new log setting
+     lineinfile: 
+        path: "{{ confile }}"
+        insertafter: "{{ L2  }}"
+        line: "{{ R1 }}"
+     register: insert
+   - import_tasks: httprestart.yml
+     when: insert.changed

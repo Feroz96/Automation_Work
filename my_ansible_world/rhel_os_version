@@ -1,0 +1,794 @@
+
+PLAY [all] *************************************************************************************************************************************************************
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [faridabad]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [faridabad] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.1 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VERSION_ID=\"7.1\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.1:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.1", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.1\""
+    ]
+}
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [faridabad]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [faridabad] => {
+    "msg": [
+        "Red Hat Enterprise Linux Server release 7.1 (Maipo)"
+    ]
+}
+
+PLAY [all] *************************************************************************************************************************************************************
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [netra]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [netra] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.1 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VARIANT=\"Server\"", 
+        "VARIANT_ID=\"server\"", 
+        "VERSION_ID=\"7.1\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.1:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.1", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.1\""
+    ]
+}
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [netra]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [netra] => {
+    "msg": [
+        "Red Hat Enterprise Linux Server release 7.1 (Maipo)"
+    ]
+}
+
+PLAY [all] *************************************************************************************************************************************************************
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [ramagundam]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [ramagundam] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.1 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VERSION_ID=\"7.1\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.1:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.1", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.1\""
+    ]
+}
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [ramagundam]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [ramagundam] => {
+    "msg": [
+        "Red Hat Enterprise Linux Server release 7.1 (Maipo)"
+    ]
+}
+
+PLAY [all] *************************************************************************************************************************************************************
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [sipat]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [sipat] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.1 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VERSION_ID=\"7.1\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.1:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.1", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.1\""
+    ]
+}
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [sipat]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [sipat] => {
+    "msg": [
+        "Red Hat Enterprise Linux Server release 7.1 (Maipo)"
+    ]
+}
+
+PLAY [all] *************************************************************************************************************************************************************
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [scope]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [scope] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.1 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VERSION_ID=\"7.1\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.1:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.1", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.1\""
+    ]
+}
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [scope]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [scope] => {
+    "msg": [
+        "Red Hat Enterprise Linux Server release 7.1 (Maipo)"
+    ]
+}
+
+PLAY [all] *************************************************************************************************************************************************************
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [singruali]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [singruali] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.5 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VARIANT=\"Server\"", 
+        "VARIANT_ID=\"server\"", 
+        "VERSION_ID=\"7.5\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.5:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.5", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.5\""
+    ]
+}
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [singruali]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [singruali] => {
+    "msg": [
+        "Red Hat Enterprise Linux Server release 7.1 (Maipo)"
+    ]
+}
+
+PLAY [all] *************************************************************************************************************************************************************
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [rihand]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [rihand] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.5 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VARIANT=\"Server\"", 
+        "VARIANT_ID=\"server\"", 
+        "VERSION_ID=\"7.5\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.5:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.5", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.5\""
+    ]
+}
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [rihand]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [rihand] => {
+    "msg": [
+        "Red Hat Enterprise Linux Server release 7.1 (Maipo)"
+    ]
+}
+
+PLAY [all] *************************************************************************************************************************************************************
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [bongaigaon]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [bongaigaon] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.1 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VERSION_ID=\"7.1\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.1:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.1", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.1\""
+    ]
+}
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [bongaigaon]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [bongaigaon] => {
+    "msg": [
+        "Red Hat Enterprise Linux Server release 7.1 (Maipo)"
+    ]
+}
+
+PLAY [all] *************************************************************************************************************************************************************
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [solapur]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [solapur] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.1 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VERSION_ID=\"7.1\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.1:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.1", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.1\""
+    ]
+}
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [solapur]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [solapur] => {
+    "msg": [
+        "Red Hat Enterprise Linux Server release 7.1 (Maipo)"
+    ]
+}
+
+PLAY [all] *************************************************************************************************************************************************************
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [simhadri]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [simhadri] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.1 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VERSION_ID=\"7.1\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.1:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.1", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.1\""
+    ]
+}
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [simhadri]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [simhadri] => {
+    "msg": [
+        "Red Hat Enterprise Linux Server release 7.1 (Maipo)"
+    ]
+}
+
+PLAY [all] *************************************************************************************************************************************************************
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [korba]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [korba] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.1 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VERSION_ID=\"7.1\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.1:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.1", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.1\""
+    ]
+}
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [korba]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [korba] => {
+    "msg": [
+        "Red Hat Enterprise Linux Server release 7.1 (Maipo)"
+    ]
+}
+
+PLAY [all] *************************************************************************************************************************************************************
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [khalegaon]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [khalegaon] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.5 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VARIANT=\"Server\"", 
+        "VARIANT_ID=\"server\"", 
+        "VERSION_ID=\"7.5\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.5:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.5", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.5\""
+    ]
+}
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [khalegaon]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [khalegaon] => {
+    "msg": [
+        "Red Hat Enterprise Linux Server release 7.1 (Maipo)"
+    ]
+}
+
+PLAY [all] *************************************************************************************************************************************************************
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [kodgi]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [kodgi] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.1 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VERSION_ID=\"7.1\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.1:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.1", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.1\""
+    ]
+}
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [kodgi]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [kodgi] => {
+    "msg": [
+        "Red Hat Enterprise Linux Server release 7.1 (Maipo)"
+    ]
+}
+
+PLAY [all] *************************************************************************************************************************************************************
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [frrka]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [frrka] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.1 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VERSION_ID=\"7.1\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.1:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.1", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.1\""
+    ]
+}
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [frrka]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [frrka] => {
+    "msg": [
+        "Red Hat Enterprise Linux Server release 7.1 (Maipo)"
+    ]
+}
+
+PLAY [all] *************************************************************************************************************************************************************
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [barh]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [barh] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.1 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VERSION_ID=\"7.1\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.1:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.1", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.1\""
+    ]
+}
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [barh]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [barh] => {
+    "msg": [
+        "Red Hat Enterprise Linux Server release 7.1 (Maipo)"
+    ]
+}
+
+PLAY [all] *************************************************************************************************************************************************************
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [talcher]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [talcher] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.1 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VERSION_ID=\"7.1\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.1:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.1", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.1\""
+    ]
+}
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [talcher]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [talcher] => {
+    "msg": [
+        "Red Hat Enterprise Linux Server release 7.1 (Maipo)"
+    ]
+}
+
+PLAY [all] *************************************************************************************************************************************************************
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [mouda]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [mouda] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.1 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VERSION_ID=\"7.1\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.1:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.1", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.1\""
+    ]
+}
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [mouda]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [mouda] => {
+    "msg": [
+        "Red Hat Enterprise Linux Server release 7.1 (Maipo)"
+    ]
+}
+
+PLAY [all] *************************************************************************************************************************************************************
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [tanda]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [tanda] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.5 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VARIANT=\"Server\"", 
+        "VARIANT_ID=\"server\"", 
+        "VERSION_ID=\"7.5\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.5:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.5", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.5\""
+    ]
+}
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [tanda]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [tanda] => {
+    "msg": [
+        "Red Hat Enterprise Linux Server release 7.1 (Maipo)"
+    ]
+}
+
+PLAY [all] *************************************************************************************************************************************************************
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [dadri]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [dadri] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.5 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VARIANT=\"Server\"", 
+        "VARIANT_ID=\"server\"", 
+        "VERSION_ID=\"7.5\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.5:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.5", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.5\""
+    ]
+}
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [dadri]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [dadri] => {
+    "msg": [
+        "Red Hat Enterprise Linux Server release 7.1 (Maipo)"
+    ]
+}
+
+PLAY [all] *************************************************************************************************************************************************************
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [vindhyachal]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [vindhyachal] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.1 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VERSION_ID=\"7.1\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.1:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.1", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.1\""
+    ]
+}
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [vindhyachal]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [vindhyachal] => {
+    "msg": [
+        "Red Hat Enterprise Linux Server release 7.1 (Maipo)"
+    ]
+}
+
+PLAY [all] *************************************************************************************************************************************************************
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [unchar]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [unchar] => {
+    "os.stdout_lines": [
+        "NAME=\"Red Hat Enterprise Linux Server\"", 
+        "VERSION=\"7.5 (Maipo)\"", 
+        "ID=\"rhel\"", 
+        "ID_LIKE=\"fedora\"", 
+        "VARIANT=\"Server\"", 
+        "VARIANT_ID=\"server\"", 
+        "VERSION_ID=\"7.5\"", 
+        "PRETTY_NAME=\"Red Hat Enterprise Linux\"", 
+        "ANSI_COLOR=\"0;31\"", 
+        "CPE_NAME=\"cpe:/o:redhat:enterprise_linux:7.5:GA:server\"", 
+        "HOME_URL=\"https://www.redhat.com/\"", 
+        "BUG_REPORT_URL=\"https://bugzilla.redhat.com/\"", 
+        "", 
+        "REDHAT_BUGZILLA_PRODUCT=\"Red Hat Enterprise Linux 7\"", 
+        "REDHAT_BUGZILLA_PRODUCT_VERSION=7.5", 
+        "REDHAT_SUPPORT_PRODUCT=\"Red Hat Enterprise Linux\"", 
+        "REDHAT_SUPPORT_PRODUCT_VERSION=\"7.5\""
+    ]
+}
+
+TASK [command] *********************************************************************************************************************************************************
+changed: [unchar]
+
+TASK [debug] ***********************************************************************************************************************************************************
+ok: [unchar] => {
+    "msg": [
+        "Red Hat Enterprise Linux Server release 7.1 (Maipo)"
+    ]
+}
+
+PLAY RECAP *************************************************************************************************************************************************************
+barh                       : ok=4    changed=2    unreachable=0    failed=0   
+bongaigaon                 : ok=4    changed=2    unreachable=0    failed=0   
+dadri                      : ok=4    changed=2    unreachable=0    failed=0   
+faridabad                  : ok=4    changed=2    unreachable=0    failed=0   
+frrka                      : ok=4    changed=2    unreachable=0    failed=0   
+khalegaon                  : ok=4    changed=2    unreachable=0    failed=0   
+kodgi                      : ok=4    changed=2    unreachable=0    failed=0   
+korba                      : ok=4    changed=2    unreachable=0    failed=0   
+mouda                      : ok=4    changed=2    unreachable=0    failed=0   
+netra                      : ok=4    changed=2    unreachable=0    failed=0   
+ramagundam                 : ok=4    changed=2    unreachable=0    failed=0   
+rihand                     : ok=4    changed=2    unreachable=0    failed=0   
+scope                      : ok=4    changed=2    unreachable=0    failed=0   
+simhadri                   : ok=4    changed=2    unreachable=0    failed=0   
+singruali                  : ok=4    changed=2    unreachable=0    failed=0   
+sipat                      : ok=4    changed=2    unreachable=0    failed=0   
+solapur                    : ok=4    changed=2    unreachable=0    failed=0   
+talcher                    : ok=4    changed=2    unreachable=0    failed=0   
+tanda                      : ok=4    changed=2    unreachable=0    failed=0   
+unchar                     : ok=4    changed=2    unreachable=0    failed=0   
+vindhyachal                : ok=4    changed=2    unreachable=0    failed=0   
+

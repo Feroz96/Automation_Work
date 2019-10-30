@@ -1,0 +1,12 @@
+---
+- hosts: all
+  serial: 1
+  user: root_EB
+  become: yes
+  become_method: sudo
+  gather_facts: false
+  tasks:
+   - shell: df -h |grep /var
+     register: var
+   - debug: var=var.stdout_lines
+  

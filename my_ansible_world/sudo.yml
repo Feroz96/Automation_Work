@@ -1,0 +1,22 @@
+---
+- hosts: all
+  user: root_EB
+  serial: 1
+  become: true
+  become_method: sudo
+  vars:
+      confile: "/etc/sudoers"
+      L1: "^root_EB"
+      ######L1: "root ALL=(ALL) ALL"
+      L2: "dimpy   ALL=(ALL)   NOPASSWD: ALL"
+  tasks:
+   - name: adding new user to sudoers
+     lineinfile: 
+        path: "{{ confile }}"
+        insertafter: "{{L1}}"
+        line: "{{ L2 }}"
+        backup: yes
+        state: present
+     #check_mode: yes
+     #register: conf
+     #failed_when: (conf is changed) or (conf is failed)

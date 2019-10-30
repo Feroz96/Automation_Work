@@ -1,0 +1,4 @@
+---
+- import_tasks: disk_state.yml
+- import_tasks: mem_up_state.yml
+- import_tasks: app_status.yml

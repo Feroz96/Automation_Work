@@ -1,0 +1,25 @@
+---
+- hosts: all
+  serial: 21
+  strategy: free
+  user: root_EB
+  become: yes
+  become_method: sudo
+  gather_facts: false
+  tasks:
+   - name: verifying process state
+     shell: if ps -ef |egrep 'apache|http'|grep -v grep > /dev/null; then echo 'http_running'; else echo 'http_not_running';fi
+     register: app_status
+   - name: application already running
+     debug: msg="{{inventory_hostname}} http service is running, Nothing to do."
+     when: app_status.stdout=="http_running"
+   - name: application not running
+     debug: msg="{{inventory_hostname}} http service not running, lets start it"
+     when: app_status.stdout=="http_not_running"
+    # notify: 
+    #   - starting
+  #handlers:
+   - name: starting
+     command: /install/IBM/HTTPServer/bin/apachectl start
+     when: app_status.stdout=="http_not_running"
+  

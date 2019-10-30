@@ -1,0 +1,16 @@
+---
+- name: application status
+  command: "{{ __app_home }}/serverStatus.sh -all -user {{ uid }} -password {{ pswd }}"
+  register: app_status
+  tags:
+    - app1
+- debug: var=app_status.stdout_lines
+  tags:
+    - app2
+- name: db state
+  command: "su - db2inst1 -c db2start"
+  #command: "/home/db2inst1/sqllib/adm/db2start"
+  register: out
+  ignore_errors: true
+  failed_when: out.rc != 1 and out.rc != 0
+- debug: var=out.stdout_lines

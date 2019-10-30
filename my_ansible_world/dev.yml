@@ -1,0 +1,19 @@
+---
+- hosts: bpmdevapp
+  user: root_EB
+  become: yes
+  become_method: sudo
+  vars: 
+    bpm_home: "/install/IBM/WebSphere/AppServer/profiles/Node1Profile"
+    usr: "celladmin"
+    psd: "Ce!!@dmin"
+  tasks:
+   - name: stopping dev
+     command: "{{ bpm_home}}/bin/startServer.sh {{item}} -user {{usr}} -password {{psd}}"
+     with_items:
+       - mem
+       - app
+       - sup
+     register: r1
+
+   - debug: var=r1.stdout_lines

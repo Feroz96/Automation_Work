@@ -1,0 +1,8 @@
+---
+- hosts: ecm_prod
+  user: root_EB
+  become: yes
+  become_method: sudo
+  gather_facts: false
+  roles:
+    - dc-role

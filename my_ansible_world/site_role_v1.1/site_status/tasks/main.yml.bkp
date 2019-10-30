@@ -1,0 +1,211 @@
+---
+#netra
+- name: checking application status
+  command: "{{ app_root_path }}/bin/{{ __script_to_run }} {{ app_server }} -user {{ __user_name }} -password {{ password }}"
+  register: all
+  tags: all
+
+- debug: var=netra.stdout_lines
+  when: hostname.stdout == __site_netra
+  tags: netra2
+#dadri
+
+- name: checking application status
+  command: "{{ app_root_path }}/bin/{{ __script_to_run }} dadri -user {{ __user_name }} -password {{ password }}"
+  when: hostname.stdout == __site_dadri
+  register: dadri
+  tags: dadri1
+
+- debug: var=dadri.stdout_lines
+  when: hostname.stdout == __site_dadri
+  tags: dadri2
+#faridabad
+
+- name: checking application status
+  command: "{{ app_root_path }}/bin/{{ __script_to_run }} badarpur -user {{ __user_name }} -password {{ password }}"
+  when: hostname.stdout ==  __site_faridabad
+  register: faridabad
+  tags: faridabad1
+- debug: var=faridabad.stdout_lines
+  when: hostname.stdout == __site_faridabad
+  tags: faridabad2
+#kodgi
+
+- name: checking application status
+  command: "{{ app_root_path }}/bin/{{ __script_to_run }} kdg -user {{ __user_name }} -password {{ password }}"
+  when: hostname.stdout == __site_kodgi
+  register: kodgi
+  tags: kodgi1
+- debug: var=kodgi.stdout_lines
+  when: hostname.stdout == __site_kodgi
+  tags: kodgi2
+#Khalegaon
+
+- name: checking application status
+  command: "{{ app_root_path }}/bin/{{ __script_to_run }} kahalgaon -user {{ __user_name }} -password {{ password }}"
+  when: hostname.stdout == __site_khelegaon
+  register: khelegaon
+  tags: khelegaon1
+- debug: var=khelegaon.stdout_lines
+  when: hostname.stdout == __site_khelegaon
+  tags: khelegaon2
+#mouda
+
+- name: checking application status
+  command: "{{ app_root_path }}/bin/{{ __script_to_run }} mouda -user {{ __user_name }} -password {{ password }}"
+  when: hostname.stdout ==  __site_mouda
+  register: mouda
+  tags: mouda1
+- debug: var=mouda.stdout_lines
+  when: hostname.stdout == __site_mouda
+  tags: mouda2
+#Frrka
+
+- name: checking application status
+  command: "{{ app_root_path }}/bin/{{ __script_to_run }} farakka -user {{ __user_name }} -password {{ password }}"
+  when: hostname.stdout ==  __site_frrka
+  register: frrka
+  tags: frrka1
+- debug: var=frrka.stdout_lines
+  when: hostname.stdout == __site_frrka
+  tags: frrka2
+#Bongaigaon
+
+- name: checking application status
+  command: "{{ app_root_path }}/bin/{{ __script_to_run }} kokrajhar -user {{ __user_name }} -password {{ password }}"
+  when: hostname.stdout == __site_bongaigaon
+  register: kokrajhar
+  tags: bongaigaon1
+- debug: var=kokrajhar.stdout_lines
+  when: hostname.stdout == __site_bongaigaon
+  tags: bongaigaon2
+#Korba
+
+- name: checking application status
+  command: "{{ app_root_path }}/bin/{{ __script_to_run }} korba -user {{ __user_name }} -password {{ password }}"
+  when: hostname.stdout ==  __site_korba
+  register: korba
+  tags: korba1
+- debug: var=korba.stdout_lines
+  when: hostname.stdout == __site_korba
+  tags: korba2
+#Ramagundam
+
+- name: checking application status
+  command: "{{ app_root_path }}/bin/{{ __script_to_run }} ramagundam -user {{ __user_name }} -password {{ password }}"
+  when: hostname.stdout == __site_ramagundam
+  register: ramagundam
+  tags: ramagundam1
+- debug: var=ramagundam.stdout_lines
+  when: hostname.stdout == __site_ramagundam
+  tags: ramagundam2
+#Rihad
+
+- name: checking application status
+  command: "{{ app_root_path }}/bin/{{ __script_to_run }} rihand -user {{ __user_name }} -password {{ password }}"
+  when: hostname.stdout ==  __site_rihad
+  register: rihad
+  tags: rihad1
+- debug: var=rihad.stdout_lines
+  when: hostname.stdout == __site_rihad
+  tags: rihad2
+#SCOPE
+
+- name: checking application status
+  command: "{{ app_root_path }}/bin/{{ __script_to_run }} scope -user {{ __user_name }} -password {{ password }}"
+  when: hostname.stdout ==  __site_scope
+  register: scope
+  tags: scope1
+- debug: var=scope.stdout_lines
+  when: hostname.stdout == __site_scope
+  tags: scope2
+#sipat
+
+- name: checking application status
+  command: "{{ app_root_path }}/bin/{{ __script_to_run }} sipat -user {{ __user_name }} -password {{ password }}"
+  when: hostname.stdout ==  __site_sipat
+  register: sipat
+  tags: sipat1
+- debug: var=sipat.stdout_lines
+  when: hostname.stdout == __site_sipat
+  tags: sipat2
+#singruali
+
+- name: checking application status
+  command: "{{ app_root_path }}/bin/{{ __script_to_run }} singrauli -user {{ __user_name }} -password {{ password }}"
+  when: hostname.stdout == __site_singruali
+  register: singruali
+  tags: singruali1
+- debug: var=singruali.stdout_lines
+  when: hostname.stdout == __site_singruali
+  tags: singruali2
+#Solapur
+
+- name: checking application status
+  command: "{{ app_root_path }}/bin/{{ __script_to_run }} solapur -user {{ __user_name }} -password {{ password }}"
+  when: hostname.stdout ==  __site_solapur
+  register: solapur
+  tags: solapur1
+- debug: var=solapur.stdout_lines
+  when: hostname.stdout == __site_solapur
+  tags: solapur2
+#Simhadri
+
+- name: checking application status
+  command: "{{ app_root_path }}/bin/{{ __script_to_run }} simhadri -user {{ __user_name }} -password {{ password }}"
+  when: hostname.stdout ==  __site_simhadri
+  register: simhadri
+  tags: simhadri1
+- debug: var=simhadri.stdout_lines
+  when: hostname.stdout == __site_simhadri
+  tags: simhadri2
+#Unchar
+
+- name: checking application status
+  command: "{{ app_root_path }}/bin/{{ __script_to_run }} Unchahar -user {{ __user_name }} -password {{ password }}"
+  when: hostname.stdout ==  __site_unchar
+  register: unchar
+  tags: unchar1
+- debug: var=unchar.stdout_lines
+  when: hostname.stdout == __site_unchar
+  tags: unchar2
+#Vidhyanchal
+
+- name: checking application status
+  command: "{{ app_root_path }}/bin/{{ __script_to_run }} vidyanchal -user {{ __user_name }} -password {{ password }}"
+  when: hostname.stdout == __site_vidhyanchal
+  register: vidyanchal
+  tags: vidyanchal1
+- debug: var=vidyanchal.stdout_lines
+  when: hostname.stdout == __site_vidhyanchal
+  tags: vidyanchal2
+#tanda
+
+- name: checking application status
+  command: "{{ app_root_path }}/bin/{{ __script_to_run }} tanda -user {{ __user_name }} -password {{ password }}"
+  when: hostname.stdout ==  __site_tanda
+  register: tanda
+  tags: tanda1
+- debug: var=tanda.stdout_lines
+  when: hostname.stdout == __site_tanda
+  tags: tanda2
+#talcher
+
+- name: checking application status
+  command: "{{ app_root_path }}/bin/{{ __script_to_run }} talcher -user {{ __user_name }} -password {{ password }}"
+  when: hostname.stdout ==  __site_talcher
+  register: talcher
+  tags: talcher1
+- debug: var=talcher.stdout_lines
+  when: hostname.stdout == __site_talcher
+  tags: talcher2
+#barh
+
+- name: checking application status
+  command: "{{ app_root_path }}/bin/{{ __script_to_run }} barh -user {{ __user_name }} -password {{ password }}"
+  when: hostname.stdout == __site_barh
+  register: barh
+  tags: barh1
+- debug: var=barh.stdout_lines
+  when: hostname.stdout == __site_barh
+  tags: barh2

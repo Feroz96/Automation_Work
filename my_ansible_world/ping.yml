@@ -1,0 +1,9 @@
+---
+- hosts: all
+  user: root_EB
+  become: yes
+  gather_facts: false
+  tasks: 
+   - ping:
+     register: pin
+   - debug: var=pin.stdout_lines

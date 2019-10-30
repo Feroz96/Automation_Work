@@ -1,0 +1,19 @@
+---
+- hosts: all
+  user: root_EB
+  become: yes
+  become_method: sudo
+  gather_facts: no
+  tasks: 
+   - name: create file 
+     file: path=/tmp/test.txt
+           owner=root_EB
+           state=touch
+           mode=0655
+     register: filein
+   - name: check
+     command: cat /tmp/test.txt
+     failed_when: not filein.changed
+     register: out
+   - debug: var=out.stdout
+              

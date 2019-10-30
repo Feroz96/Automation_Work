@@ -1,0 +1,12 @@
+[dev_test]
+master
+ecmtestapp
+bpmdevapp
+bpmdevdb
+ecmdevapp
+ecmdevdb
+bpmtestapp
+bpmtestdb
+ecmtestapp
+ecmtestdb
+10.3.0.114

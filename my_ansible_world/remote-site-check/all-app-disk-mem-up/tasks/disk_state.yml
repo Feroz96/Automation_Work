@@ -1,0 +1,8 @@
+---
+- name: mounts points of host
+  command: df -hT
+  register: disk_state
+  tags: df1
+- debug: var=disk_state.stdout_lines
+  tags: df2
+
